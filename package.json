@@ -4,6 +4,7 @@
   "author": "Ranveer Soni <ranveersoni.me>",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "bun run dist/index.js",
     "dev": "bun run --watch src/index.ts",
     "build": "bun build src/index.ts --outdir dist --target bun",
     "db:push": "prisma db push",
